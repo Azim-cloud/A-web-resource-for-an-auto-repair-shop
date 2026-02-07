@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Услуги | Автомастерская "ПрофиДрайв"</title>
+    <link rel="stylesheet" href="normalize.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+</head>
+<body class="page">
+    <header class="header">
+        <div class="header__container container">
+            <div class="header__logo">
+                <a href="index.html" class="logo">
+                    <i class="logo__icon fas fa-car"></i>
+                    <span class="logo__text">Профи<span class="logo__text--accent">Драйв</span></span>
+                </a>
+            </div>
+            
+            <nav class="header__nav">
+                <ul class="nav">
+                    <li class="nav__item"><a href="index.html" class="nav__link">Главная</a></li>
+                    <li class="nav__item"><a href="services.html" class="nav__link active">Услуги</a></li>
+                    <li class="nav__item"><a href="about.html" class="nav__link">О нас</a></li>
+                    <li class="nav__item"><a href="contacts.html" class="nav__link">Контакты</a></li>
+                </ul>
+            </nav>
+            
+            <button class="header__button button button--primary" id="appointmentBtn">Записаться</button>
+            
+            <button class="header__burger" id="burgerBtn" aria-label="Меню">
+                <span class="header__burger-line"></span>
+                <span class="header__burger-line"></span>
+                <span class="header__burger-line"></span>
+            </button>
+        </div>
+    </header>
+
+    <main class="main">
+        <section class="page-hero">
+            <div class="container">
+                <h1 class="page-hero__title">Наши услуги</h1>
+                <p class="page-hero__subtitle">Полный спектр услуг по ремонту и обслуживанию</p>
+            </div>
+        </section>
+
+        <section class="services-page">
+            <div class="container">
+                <div class="services-page__grid">
+                    <div class="service-detail">
+                        <div class="service-detail__icon">
+                            <i class="fas fa-engine"></i>
+                        </div>
+                        <h3 class="service-detail__title">Ремонт двигателя</h3>
+                        <p class="service-detail__description">Полная диагностика, замена деталей, капитальный ремонт.</p>
+                        <ul class="service-detail__list">
+                            <li>Диагностика двигателя</li>
+                            <li>Замена ГРМ</li>
+                            <li>Капитальный ремонт</li>
+                            <li>Чистка инжектора</li>
+                        </ul>
+                        <div class="service-detail__price">от 5 000 ₽</div>
+                    </div>
+
+                    <div class="service-detail">
+                        <div class="service-detail__icon">
+                            <i class="fas fa-oil-can"></i>
+                        </div>
+                        <h3 class="service-detail__title">Техническое обслуживание</h3>
+                        <p class="service-detail__description">Регулярное ТО, замена жидкостей и расходников.</p>
+                        <ul class="service-detail__list">
+                            <li>Замена масла и фильтров</li>
+                            <li>Замена тормозных колодок</li>
+                            <li>Замена свечей зажигания</li>
+                            <li>Проверка систем</li>
+                        </ul>
+                        <div class="service-detail__price">от 1 500 ₽</div>
+                    </div>
+
+                    <div class="service-detail">
+                        <div class="service-detail__icon">
+                            <i class="fas fa-tools"></i>
+                        </div>
+                        <h3 class="service-detail__title">Диагностика</h3>
+                        <p class="service-detail__description">Компьютерная диагностика всех систем автомобиля.</p>
+                        <ul class="service-detail__list">
+                            <li>Компьютерная диагностика</li>
+                            <li>Проверка ходовой части</li>
+                            <li>Диагностика электрики</li>
+                            <li>Замер давления</li>
+                        </ul>
+                        <div class="service-detail__price">от 1 000 ₽</div>
+                    </div>
+
+                    <div class="service-detail">
+                        <div class="service-detail__icon">
+                            <i class="fas fa-tire"></i>
+                        </div>
+                        <h3 class="service-detail__title">Шиномонтаж</h3>
+                        <p class="service-detail__description">Сезонная замена и ремонт шин, балансировка.</p>
+                        <ul class="service-detail__list">
+                            <li>Сезонная замена шин</li>
+                            <li>Ремонт проколов</li>
+                            <li>Балансировка колес</li>
+                            <li>Хранение шин</li>
+                        </ul>
+                        <div class="service-detail__price">от 500 ₽</div>
+                    </div>
+                </div>
+
+                <div class="services-page__cta">
+                    <h3 class="services-page__cta-title">Нужна консультация?</h3>
+                    <p class="services-page__cta-text">Наши специалисты помогут подобрать необходимые услуги</p>
+                    <a href="#appointment" class="button button--primary">Записаться на прием</a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__grid">
+                <div class="footer__column">
+                    <h3 class="footer__title">Автомастерская "ПрофиДрайв"</h3>
+                    <p class="footer__text">Качественный ремонт и обслуживание автомобилей с 2010 года.</p>
+                </div>
+                
+                <div class="footer__column">
+                    <h4 class="footer__subtitle">Контакты</h4>
+                    <ul class="footer__list">
+                        <li class="footer__item">
+                            <i class="fas fa-map-marker-alt footer__icon"></i>
+                            г. Москва, ул. Автомобильная, д. 15
+                        </li>
+                        <li class="footer__item">
+                            <i class="fas fa-phone footer__icon"></i>
+                            +7 (495) 123-45-67
+                        </li>
+                        <li class="footer__item">
+                            <i class="fas fa-envelope footer__icon"></i>
+                            info@prodrive-auto.ru
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="footer__bottom">
+                <p class="footer__copyright">© 2024 Автомастерская "ПрофиДрайв". Все права защищены.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>

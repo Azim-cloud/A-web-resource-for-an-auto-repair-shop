@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>О нас | Автомастерская "ПрофиДрайв"</title>
+    <link rel="stylesheet" href="normalize.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+</head>
+<body class="page">
+    <header class="header">
+        <div class="header__container container">
+            <div class="header__logo">
+                <a href="index.html" class="logo">
+                    <i class="logo__icon fas fa-car"></i>
+                    <span class="logo__text">Профи<span class="logo__text--accent">Драйв</span></span>
+                </a>
+            </div>
+            
+            <nav class="header__nav">
+                <ul class="nav">
+                    <li class="nav__item"><a href="index.html" class="nav__link">Главная</a></li>
+                    <li class="nav__item"><a href="services.html" class="nav__link">Услуги</a></li>
+                    <li class="nav__item"><a href="about.html" class="nav__link active">О нас</a></li>
+                    <li class="nav__item"><a href="contacts.html" class="nav__link">Контакты</a></li>
+                </ul>
+            </nav>
+            
+            <button class="header__button button button--primary" id="appointmentBtn">Записаться</button>
+            
+            <button class="header__burger" id="burgerBtn" aria-label="Меню">
+                <span class="header__burger-line"></span>
+                <span class="header__burger-line"></span>
+                <span class="header__burger-line"></span>
+            </button>
+        </div>
+    </header>
+
+    <main class="main">
+        <section class="page-hero">
+            <div class="container">
+                <h1 class="page-hero__title">О компании</h1>
+                <p class="page-hero__subtitle">Наша история и принципы работы</p>
+            </div>
+        </section>
+
+        <section class="about-page">
+            <div class="container">
+                <div class="about-page__content">
+                    <h2 class="section-title">Наша история</h2>
+                    <div class="about-page__text">
+                        <p>Автомастерская "ПрофиДрайв" была основана в 2010 году группой энтузиастов, имеющих многолетний опыт работы в автомобильной индустрии.</p>
+                        <p>За более чем 10 лет работы мы выросли из небольшой мастерской в современный сервисный центр, оснащенный передовым оборудованием.</p>
+                    </div>
+
+                    <div class="stats">
+                        <div class="stats__item">
+                            <div class="stats__number">10+</div>
+                            <div class="stats__label">Лет опыта</div>
+                        </div>
+                        <div class="stats__item">
+                            <div class="stats__number">5000+</div>
+                            <div class="stats__label">Довольных клиентов</div>
+                        </div>
+                        <div class="stats__item">
+                            <div class="stats__number">15</div>
+                            <div class="stats__label">Профессионалов</div>
+                        </div>
+                        <div class="stats__item">
+                            <div class="stats__number">100%</div>
+                            <div class="stats__label">Гарантия качества</div>
+                        </div>
+                    </div>
+
+                    <div class="principles">
+                        <h3 class="section-title section-title--small">Наши принципы</h3>
+                        <div class="principles__grid">
+                            <div class="principle-card">
+                                <i class="principle-card__icon fas fa-handshake"></i>
+                                <h4 class="principle-card__title">Честность</h4>
+                                <p>Прозрачные цены и честная диагностика</p>
+                            </div>
+                            <div class="principle-card">
+                                <i class="principle-card__icon fas fa-award"></i>
+                                <h4 class="principle-card__title">Качество</h4>
+                                <p>Используем только оригинальные запчасти</p>
+                            </div>
+                            <div class="principle-card">
+                                <i class="principle-card__icon fas fa-clock"></i>
+                                <h4 class="principle-card__title">Скорость</h4>
+                                <p>Выполняем работу в оговоренные сроки</p>
+                            </div>
+                            <div class="principle-card">
+                                <i class="principle-card__icon fas fa-shield-alt"></i>
+                                <h4 class="principle-card__title">Гарантия</h4>
+                                <p>Предоставляем гарантию на все виды работ</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__grid">
+                <div class="footer__column">
+                    <h3 class="footer__title">Автомастерская "ПрофиДрайв"</h3>
+                    <p class="footer__text">Качественный ремонт и обслуживание автомобилей с 2010 года.</p>
+                </div>
+                
+                <div class="footer__column">
+                    <h4 class="footer__subtitle">Контакты</h4>
+                    <ul class="footer__list">
+                        <li class="footer__item">
+                            <i class="fas fa-map-marker-alt footer__icon"></i>
+                            г. Москва, ул. Автомобильная, д. 15
+                        </li>
+                        <li class="footer__item">
+                            <i class="fas fa-phone footer__icon"></i>
+                            +7 (495) 123-45-67
+                        </li>
+                        <li class="footer__item">
+                            <i class="fas fa-envelope footer__icon"></i>
+                            info@prodrive-auto.ru
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="footer__bottom">
+                <p class="footer__copyright">© 2024 Автомастерская "ПрофиДрайв". Все права защищены.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
